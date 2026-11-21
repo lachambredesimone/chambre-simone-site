@@ -1,0 +1,118 @@
+backend:
+  name: turbo-github
+  turbo_site_id: REMPLACER_PAR_LE_SITE_ID_DE_DECAP_TURBO
+  branch: main
+
+media_folder: "images"
+public_folder: "/images"
+locale: "fr"
+site_url: "https://VOTRE-SITE.pages.dev"
+display_url: "https://VOTRE-SITE.pages.dev"
+logo_url: "/images/logo-chambre.jpg"
+
+collections:
+  - name: "contenu"
+    label: "Contenu du site"
+    files:
+      - name: "site"
+        label: "Textes, photos et apparence"
+        file: "content/site.json"
+        format: "json"
+        fields:
+          - {label: "Nom du site", name: "brand_name", widget: "string"}
+          - {label: "Localisation / surtitre", name: "location", widget: "string"}
+          - {label: "ACCUEIL — Titre principal", name: "hero_title", widget: "string"}
+          - {label: "ACCUEIL — Introduction", name: "hero_intro", widget: "text"}
+          - {label: "ACCUEIL — Petit mot sous le bouton", name: "hero_note", widget: "string"}
+          - {label: "ACCUEIL — Photo principale", name: "hero_image", widget: "image"}
+          - {label: "ACCUEIL — Zoom photo (1 à 2)", name: "hero_image_zoom", widget: "number", value_type: "float", min: 1, max: 2, step: 0.05}
+          - {label: "ACCUEIL — Cadrage horizontal (%)", name: "hero_image_x", widget: "number", min: 0, max: 100, step: 5}
+          - {label: "ACCUEIL — Cadrage vertical (%)", name: "hero_image_y", widget: "number", min: 0, max: 100, step: 5}
+          - {label: "PRÉSENTATION — Titre", name: "welcome_title", widget: "string"}
+          - {label: "PRÉSENTATION — Sous-titre", name: "welcome_subtitle", widget: "string"}
+          - {label: "PRÉSENTATION — Texte", name: "welcome_text", widget: "text"}
+          - label: "PRÉSENTATION — Les trois points forts"
+            name: "pillars"
+            widget: "list"
+            fields:
+              - {label: "Titre", name: "title", widget: "string"}
+              - {label: "Texte", name: "text", widget: "text"}
+          - {label: "HISTOIRE — Petit mot de Simone", name: "simone_note", widget: "text"}
+          - {label: "HISTOIRE — Histoire / contexte", name: "simone_story", widget: "text"}
+          - {label: "ENQUÊTE — Titre", name: "game_title", widget: "string"}
+          - {label: "ENQUÊTE — Présentation", name: "game_text", widget: "text"}
+          - {label: "ENQUÊTE — Citation", name: "game_quote", widget: "text"}
+          - {label: "CHAMBRE — Présentation", name: "room_intro", widget: "text"}
+          - {label: "CHAMBRE — Photo", name: "room_image", widget: "image"}
+          - {label: "CHAMBRE — Zoom photo (1 à 2)", name: "room_image_zoom", widget: "number", value_type: "float", min: 1, max: 2, step: 0.05}
+          - {label: "CHAMBRE — Cadrage horizontal (%)", name: "room_image_x", widget: "number", min: 0, max: 100, step: 5}
+          - {label: "CHAMBRE — Cadrage vertical (%)", name: "room_image_y", widget: "number", min: 0, max: 100, step: 5}
+          - {label: "CHAMBRE — Hauteur photo (px)", name: "room_image_height", widget: "number", min: 220, max: 700, step: 10}
+          - label: "CHAMBRE — Équipements et caractéristiques"
+            name: "room_features"
+            widget: "list"
+            fields:
+              - {label: "Intitulé", name: "title", widget: "string"}
+              - {label: "Description", name: "text", widget: "text"}
+          - {label: "CHAMBRE — Règles et horaires", name: "room_rules", widget: "text"}
+          - {label: "TRANSPARENCE — Titre", name: "transparency_title", widget: "string"}
+          - {label: "TRANSPARENCE — Texte", name: "transparency_text", widget: "text"}
+          - label: "SÉJOUR — Étapes"
+            name: "night_steps"
+            widget: "list"
+            fields:
+              - {label: "Titre", name: "title", widget: "string"}
+              - {label: "Texte", name: "text", widget: "text"}
+          - {label: "SÉJOUR — Localisation et accès", name: "location_text", widget: "text"}
+          - {label: "SÉJOUR — Heure d’arrivée", name: "arrival_time", widget: "string"}
+          - {label: "SÉJOUR — Horaire du petit-déjeuner", name: "breakfast_time", widget: "string"}
+          - {label: "SÉJOUR — Heure de départ", name: "departure_time", widget: "string"}
+          - {label: "TARIFS — Description de la formule", name: "package_text", widget: "text"}
+          - {label: "TARIFS — Dimanche-jeudi", name: "price_week", widget: "string"}
+          - {label: "TARIFS — Vendredi-samedi et veille de jour férié", name: "price_weekend", widget: "string"}
+          - {label: "RÉSERVATION — Texte", name: "booking_intro", widget: "text"}
+          - {label: "CONTACT — Adresse e-mail", name: "email", widget: "string", required: false}
+          - {label: "CONTACT — Téléphone", name: "phone", widget: "string", required: false}
+          - label: "GALERIE — Photos (ajouter, supprimer ou déplacer)"
+            name: "gallery"
+            widget: "list"
+            fields:
+              - {label: "Photo", name: "image", widget: "image"}
+              - {label: "Légende", name: "caption", widget: "string", required: false}
+              - {label: "Zoom (1 à 2)", name: "zoom", widget: "number", value_type: "float", min: 1, max: 2, step: 0.05}
+              - {label: "Cadrage horizontal (%)", name: "x", widget: "number", min: 0, max: 100, step: 5}
+              - {label: "Cadrage vertical (%)", name: "y", widget: "number", min: 0, max: 100, step: 5}
+              - {label: "Hauteur photo (px)", name: "height", widget: "number", min: 120, max: 500, step: 10}
+          - label: "APPARENCE — Couleurs du site"
+            name: "theme"
+            widget: "object"
+            fields:
+              - {label: "Fond général", name: "page_bg", widget: "color"}
+              - {label: "Fond de l’accueil", name: "hero_bg", widget: "color"}
+              - {label: "Fond des sections claires", name: "section_bg", widget: "color"}
+              - {label: "Fond des sections alternées", name: "alt_bg", widget: "color"}
+              - {label: "Fond de la chambre", name: "room_bg", widget: "color"}
+              - {label: "Couleur du texte", name: "text_color", widget: "color"}
+              - {label: "Couleur des titres", name: "heading_color", widget: "color"}
+              - {label: "Couleur des boutons", name: "button_bg", widget: "color"}
+              - {label: "Texte des boutons", name: "button_text", widget: "color"}
+          - label: "RUBRIQUES COMPLÉMENTAIRES — Ajouter / supprimer / réordonner"
+            name: "sections"
+            widget: "list"
+            collapsed: true
+            summary: "{{fields.title}}"
+            fields:
+              - {label: "Afficher cette rubrique", name: "visible", widget: "boolean", default: true}
+              - {label: "Type", name: "type", widget: "select", options: [{label: "Texte", value: "text"}, {label: "Photo", value: "image"}, {label: "Texte et photo", value: "split"}, {label: "Citation", value: "callout"}], default: "text"}
+              - {label: "Petit surtitre", name: "eyebrow", widget: "string", required: false}
+              - {label: "Titre", name: "title", widget: "string", required: false}
+              - {label: "Texte", name: "text", widget: "text", required: false}
+              - {label: "Photo", name: "image", widget: "image", required: false}
+              - {label: "Texte descriptif de la photo", name: "image_alt", widget: "string", required: false}
+              - {label: "Position de la photo", name: "image_position", widget: "select", options: [{label: "À droite", value: "right"}, {label: "À gauche", value: "left"}], default: "right"}
+              - {label: "Alignement", name: "alignment", widget: "select", options: [{label: "Centré", value: "center"}, {label: "À gauche", value: "left"}], default: "center"}
+              - {label: "Fond", name: "background", widget: "select", options: [{label: "Crème", value: "normal"}, {label: "Rose clair", value: "alternate"}, {label: "Vert sauge", value: "sage"}], default: "normal"}
+              - {label: "Zoom photo (1 à 2)", name: "zoom", widget: "number", value_type: "float", min: 1, max: 2, step: 0.05, default: 1}
+              - {label: "Cadrage horizontal (%)", name: "x", widget: "number", min: 0, max: 100, step: 5, default: 50}
+              - {label: "Cadrage vertical (%)", name: "y", widget: "number", min: 0, max: 100, step: 5, default: 50}
+              - {label: "Hauteur image (px)", name: "height", widget: "number", min: 120, max: 700, step: 10, default: 360}

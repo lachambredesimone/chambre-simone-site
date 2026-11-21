@@ -1,0 +1,63 @@
+{
+  "brand_name": "La Chambre de Simone",
+  "location": "Chambre d’hôtes insolite · Vertou, près de Nantes",
+  "hero_title": "Et si, le temps d’une nuit, on prenait le temps ?",
+  "hero_intro": "Une enquête à mener, des gourmandises à découvrir, une nuit douillette… et quelques souvenirs qui ne demandent qu’à refaire surface.",
+  "hero_note": "Je vous attendais… — Simone",
+  "hero_image": "/images/simone-portrait.jpg",
+  "hero_image_zoom": 1,
+  "hero_image_x": 50,
+  "hero_image_y": 42,
+  "welcome_title": "Une parenthèse à savourer",
+  "welcome_subtitle": "à deux, tout simplement.",
+  "welcome_text": "Ici, on ne vient pas seulement dormir. On vient fouiller dans les souvenirs, jouer les curieux, partager un apéritif et se laisser porter par une soirée un peu hors du temps.",
+  "pillars": [
+    {"title":"Une enquête vintage","text":"Des objets anciens, des indices et des énigmes à résoudre ensemble. Ouvrez l’œil : Simone a laissé quelques secrets derrière elle."},
+    {"title":"Des gourmandises","text":"Votre apéritif dînatoire se dévoile au fil de l’enquête : de quoi grignoter, trinquer et se régaler."},
+    {"title":"Une nuit douillette","text":"Après vos découvertes, installez-vous dans le lit de Simone. Le petit-déjeuner vous attendra le lendemain matin."}
+  ],
+  "simone_note": "« Je compte partir en voyage prochainement et j’ai besoin de vous pour nourrir ma gentille chatte Coquette pendant mon absence. Je vous confie ma chambre pour une soirée et une nuit. Bien entendu, je me suis mise aux fourneaux avant de partir. Si vous êtes suffisamment débrouillards, vous devriez vous régaler. Profitez bien ! »",
+  "simone_story": "Comme toutes les grands-mères, Simone est bonne cuisinière. Elle vous a préparé ses recettes favorites… mais tout cela se mérite ! Si vous êtes observateurs et perspicaces, vous découvrirez au fil de la soirée ses meilleures spécialités. Vous dormirez ensuite dans son lit douillet. Elle a changé les draps avant de partir, enfin je crois…",
+  "game_title": "Une enquête qui se savoure",
+  "game_text": "Au fil de vos découvertes, vous débloquerez les différentes étapes de votre apéritif dînatoire. Les objets qui vous entourent sont pour la plupart de véritables pièces vintage, chinées ou issues des souvenirs de Simone.\n\nComptez environ 1 h 30 à 2 h 30 de jeu, selon votre rythme. Un carnet d’indices est là si vous avez besoin d’un coup de pouce. Débutants ou habitués des énigmes : chacun peut profiter de l’expérience à sa façon.\n\nLe but n’est pas de battre un record. C’est de passer une jolie soirée.",
+  "game_quote": "« Les bibelots ne sont pas là uniquement pour faire joli. Mais je ne vous ai rien dit… »",
+  "room_intro": "Une décoration rétro et chaleureuse, des objets qui ont vécu, et tout le nécessaire pour profiter tranquillement de votre soirée.",
+  "room_image": "/images/chambre-ambiance.jpg",
+  "room_image_zoom": 1,
+  "room_image_x": 50,
+  "room_image_y": 50,
+  "room_image_height": 440,
+  "room_features": [
+    {"title":"Pour deux personnes","text":"Lit double 140 × 190 cm"},
+    {"title":"Votre espace privé","text":"Chambre avec coin douche et WC dans la même pièce, séparé par un rideau"},
+    {"title":"À disposition","text":"Linge de toilette, sèche-cheveux, gel douche et shampoing"},
+    {"title":"Pour les petites pauses","text":"Bouilloire, mugs et tisanes"},
+    {"title":"Le matin","text":"Petit-déjeuner servi dans la chambre entre 7 h 30 et 10 h"}
+  ],
+  "room_rules": "Chambre non-fumeur. Arrivée à convenir ensemble ; départ le lendemain avant 10 h.",
+  "transparency_title": "Chez Simone, on est aussi chez nous.",
+  "transparency_text": "La chambre se trouve dans la maison de Marie et Aurélien. Vous serez accueillis à leur porte, puis rejoindrez votre espace par l’extérieur grâce à un accès indépendant. Vous n’aurez pas à traverser la maison ni à partager les pièces de vie. Une porte intérieure communiquant avec le couloir familial restera fermée à clé pendant votre séjour.\n\nLa famille vit juste à côté : il est donc possible d’entendre quelques bruits ordinaires de la maison, notamment les allées et venues des adolescents, la télévision ou l’activité de la cuisine. La chambre dispose de son propre coin douche et WC, aménagé dans la pièce et séparé par un rideau.\n\nJe préfère vous le dire avant votre arrivée : mieux vaut savoir où l’on met les pieds !",
+  "night_steps": [
+    {"title":"Vous arrivez","text":"Nous convenons ensemble de votre heure d’arrivée. Une place de stationnement est disponible devant la maison."},
+    {"title":"Vous enquêtez et vous mangez","text":"Observez, cherchez, échangez vos idées et découvrez votre apéritif dînatoire au fil des énigmes."},
+    {"title":"Vous profitez","text":"Une nuit dans le lit de Simone, puis un petit-déjeuner servi dans votre chambre le lendemain matin."}
+  ],
+  "location_text": "Nous habitons dans un village de Vertou, au calme, dans un environnement verdoyant entre vignes et forêt, à environ 20 minutes de Nantes. La voiture est recommandée ; les vélos peuvent être abrités dans un garage sécurisé.",
+  "package_text": "La nuitée, l’enquête immersive, l’apéritif dînatoire, une bouteille au choix parmi notre sélection et le petit-déjeuner du lendemain sont réunis dans une seule formule.\n\nPour le reste, je m’occupe de tout !",
+  "price_week": "Tarif à compléter",
+  "price_weekend": "Tarif à compléter",
+  "booking_intro": "Racontez-nous quand vous aimeriez venir. Votre demande sera étudiée personnellement ; elle ne vaut pas encore réservation et aucun paiement n’est demandé à cette étape.",
+  "email": "",
+  "phone": "",
+  "arrival_time": "À convenir ensemble",
+  "breakfast_time": "Entre 7 h 30 et 10 h",
+  "departure_time": "Avant 10 h",
+  "gallery": [
+    {"image":"/images/chambre-ambiance.jpg","caption":"Une chambre douce et chaleureuse","zoom":1,"x":50,"y":50,"height":280},
+    {"image":"/images/logo-chambre.jpg","caption":"L’univers de Simone","zoom":1,"x":50,"y":50,"height":280},
+    {"image":"/images/simone-scenes.jpg","caption":"Les petits détails de la maison","zoom":1,"x":50,"y":50,"height":280}
+  ],
+  "fonts": {"heading":"Cormorant Garamond","body":"Lato","accent":"Parisienne"},
+  "theme": {"page_bg":"#f7f0e9","hero_bg":"#f3e5e0","section_bg":"#fffaf4","alt_bg":"#f5e9e4","room_bg":"#e9ece3","text_color":"#51433e","heading_color":"#51413b","button_bg":"#89917d","button_text":"#ffffff"},
+  "sections": []
+}
