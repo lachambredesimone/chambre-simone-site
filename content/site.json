@@ -88,22 +88,6 @@
   "price_weekend": "160€",
   "gallery": [
     {
-      "image": "/images/chambre-ambiance.jpg",
-      "caption": "Une chambre douce et chaleureuse",
-      "zoom": 1,
-      "x": 50,
-      "y": 50,
-      "height": 280
-    },
-    {
-      "image": "/images/logo-chambre.jpg",
-      "caption": "L’univers de Simone",
-      "zoom": 1,
-      "x": 50,
-      "y": 50,
-      "height": 280
-    },
-    {
       "image": "/images/simone-scenes.jpg",
       "caption": "Les petits détails de la maison",
       "zoom": 1,
