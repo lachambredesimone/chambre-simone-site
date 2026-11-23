@@ -61,19 +61,19 @@
   "pillars": [
     {
       "title": "Une enquête vintage",
-      "text": "Des objets anciens, des indices et des énigmes à résoudre ensemble. Ouvrez l’œil : Simone a laissé quelques secrets derrière elle."
+      "text": "Des objets anciens, des indices, des énigmes, des codes, des clés. \nVous serez les héros de cette aventure !"
     },
     {
-      "title": "Des gourmandises",
-      "text": "Votre apéritif dînatoire se dévoile au fil de l’enquête : de quoi grignoter, trinquer et se régaler."
+      "title": "Des bonnes dégustations",
+      "text": "Votre apéritif dînatoire se dévoile au fil de l’enquête : mets locaux, recettes maison, bonne bouteille, douceur sucrée."
     },
     {
       "title": "Une nuit douillette",
-      "text": "Après vos découvertes, installez-vous dans le lit de Simone. Le petit-déjeuner vous attendra le lendemain matin."
+      "text": "Après vos découvertes, place au repos dans le lit de Simone. \nUn bon petit-déjeuner vous sera servi à votre réveil."
     }
   ],
   "price_week": "140€",
-  "welcome_text": "Ici, on ne vient pas seulement dormir. On vient fouiller dans les souvenirs, jouer les curieux, partager un apéritif et se laisser porter par une soirée un peu hors du temps.",
+  "welcome_text": "Ici, on ne vient pas seulement dormir. On vient fouiller dans les souvenirs, jouer les curieux, découvrir des secrets de famille, redonner vie à des objets oubliés. \nLaissez-vous porter et savourez ce moment hors du temps.",
   "game_title": "Une enquête qui se savoure",
   "phone": "06.67.62.51.05",
   "sections": [],
@@ -116,7 +116,7 @@
   "hero_title": "Chambre d'hôtes avec enquête immersive et apéro dînatoire",
   "arrival_time": "À convenir ensemble",
   "transparency_text": "La chambre se trouve dans la maison de Marie et Aurélien. Vous serez accueillis à leur porte, puis rejoindrez votre espace par l’extérieur grâce à un accès indépendant. Vous n’aurez pas à traverser la maison ni à partager les pièces de vie. Une porte intérieure communiquant avec le couloir familial restera fermée à clé pendant votre séjour.\n\nLa famille vit juste à côté : il est donc possible d’entendre quelques bruits ordinaires de la maison, notamment les allées et venues des adolescents, la télévision ou l’activité de la cuisine. La chambre dispose de son propre coin douche et WC, aménagé dans la pièce et séparé par un rideau.\n\nJe préfère vous le dire avant votre arrivée : mieux vaut savoir où l’on met les pieds !",
-  "welcome_subtitle": "à deux, tout simplement.",
+  "welcome_subtitle": "à partager en toute simplicité",
   "location": "Hébergement insolite à Vertou, près de Nantes.",
   "hero_image": "/images/chambre-ambiance.jpg",
   "room_image": "/images/chambre-ambiance.jpg",
@@ -125,7 +125,7 @@
   "departure_time": "Avant 10 h",
   "game_text": "Au fil de vos découvertes, vous débloquerez les différentes étapes de votre apéritif dînatoire. Les objets qui vous entourent sont pour la plupart de véritables pièces vintage, chinées ou issues des souvenirs de Simone.\n\nComptez environ 1 h 30 à 2 h 30 de jeu, selon votre rythme. Un carnet d’indices est là si vous avez besoin d’un coup de pouce. Débutants ou habitués des énigmes : chacun peut profiter de l’expérience à sa façon.\n\nLe but n’est pas de battre un record. C’est de passer une jolie soirée.",
   "room_image_zoom": 1,
-  "welcome_title": "Une parenthèse à savourer",
+  "welcome_title": "Une parenthèse ludique et gourmande",
   "hero_image_zoom": 1,
   "email": "lachambredesimone@gmail.com"
 }
