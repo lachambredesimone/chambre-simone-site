@@ -1,7 +1,7 @@
 {
   "night_steps": [
     {
-      "title": "Vous arrivez",
+      "title": "Vous arrivez dans l'après-midi ou en soirée",
       "text": "Nous convenons ensemble de votre heure d’arrivée. Une place de stationnement est disponible devant la maison."
     },
     {
@@ -44,9 +44,9 @@
   },
   "simone_story": "Mamie Simone sait prendre soin de ses hôtes.",
   "package_text": "La nuitée, l’enquête immersive, l’apéritif dînatoire, une bouteille au choix parmi notre sélection et le petit-déjeuner du lendemain sont réunis dans une seule formule.\n\nPour le reste, je m’occupe de tout !",
-  "booking_intro": "Racontez-nous quand vous aimeriez venir. Votre demande sera étudiée personnellement ; elle ne vaut pas encore réservation et aucun paiement n’est demandé à cette étape.",
+  "booking_intro": "Choisissez une date disponible sur le calendrier. Votre demande sera étudiée personnellement ; elle ne vaut pas encore réservation et aucun paiement n'est demandé à cette étape. \nMarie et Aurélien vous contacteront rapidement pour valider définitivement votre réservation après réception d'un acompte de 30%.",
   "hero_intro": "Une nuit pour 2 dans un univers rétro et chaleureux, un jeu d'énigmes à résoudre à votre rythme, un apéritif dînatoire gourmand et un petit-déjeuner copieux le lendemain.",
-  "room_intro": "Une décoration rétro et chaleureuse, des objets qui ont vécu et tout le nécessaire pour profiter tranquillement de votre soirée.",
+  "room_intro": "Une décoration rétro et chaleureuse, des objets qui ont vécu, des boites pleines de mystère, et tout le nécessaire pour profiter tranquillement de votre soirée.",
   "theme": {
     "heading_color": "#51413b",
     "room_bg": "#e9ece3",
@@ -72,7 +72,7 @@
       "text": "Après vos découvertes, place au repos dans le lit de Simone. \nUn bon petit-déjeuner vous sera servi à votre réveil."
     }
   ],
-  "price_week": "140€",
+  "price_week": "140€ pour 2 personnes",
   "welcome_text": "Ici, on ne vient pas seulement dormir. On vient fouiller dans les souvenirs, jouer les curieux, découvrir des secrets de famille, redonner vie à des objets oubliés. \nLaissez-vous porter et savourez ce moment hors du temps.",
   "game_title": "Une enquête qui se savoure",
   "phone": "06.67.62.51.05",
@@ -82,10 +82,10 @@
   "game_quote": "« Les bibelots ne sont pas là uniquement pour faire joli. Mais je ne vous ai rien dit… »",
   "room_image_x": 50,
   "hero_image_y": 30,
-  "breakfast_time": "Entre 7 h 30 et 10 h",
+  "breakfast_time": "À convenir ensemble",
   "transparency_title": "Chez Simone, c'est aussi chez nous.",
   "room_image_y": 50,
-  "price_weekend": "160€",
+  "price_weekend": "160€ pour 2 personnes",
   "gallery": [
     {
       "image": "/images/simone-scenes.jpg",
@@ -99,15 +99,15 @@
   "room_rules": "Chambre non-fumeur. Animaux non acceptés.\nHoraires d'arrivée et de départ à convenir ensemble.",
   "hero_title": "Chambre d'hôtes avec enquête immersive et apéro dînatoire",
   "arrival_time": "À convenir ensemble",
-  "transparency_text": "La chambre se trouve dans la maison de Marie & Aurélien. Vous rejoindrez votre espace par l’extérieur grâce à une entrée indépendante et n'aurez pas accès aux autres pièces de la maison.\n\nC'est pourquoi, vous entendrez peut-être les allées et venues de la famille ou des bruits du quotidien (télévision, cuisine...).",
+  "transparency_text": "La chambre se trouve dans la maison de Marie & Aurélien. Vous rejoindrez votre espace par l’extérieur grâce à une entrée indépendante et n'aurez pas accès aux autres pièces de la maison.\n\nNotre famille restera discrète mais vous entendrez peut-être des allées et venues ou des bruits du quotidien (télévision, cuisine...).",
   "welcome_subtitle": "à partager en toute simplicité",
   "location": "Hébergement insolite à Vertou, près de Nantes.",
   "hero_image": "/images/chambre-ambiance.jpg",
   "room_image": "/images/la-chambre.jpeg",
   "hero_note": "Je vous attendais… — Simone",
-  "location_text": "Nous habitons dans un village de Vertou, au calme, dans un environnement verdoyant entre vignes et forêt, à environ 20 minutes de Nantes. La voiture est recommandée ; les vélos peuvent être abrités dans un garage sécurisé.",
-  "departure_time": "Avant 10 h",
-  "game_text": "Dans la chambre, les objets qui vous entourent sont de véritables pièces vintage, chinées ou issues des souvenirs de Simone.\nElle a pris soin de vous laisser des consignes dans son carnet. Au fil de ces pages, vous avancerez dans l'enquête et découvrirez votre apéritif dînatoire. \nComptez 1h30 à 2h30 de jeu, selon votre rythme.\nDébutants ou habitués des escape games, chacun peut profiter de l’expérience à sa façon. \nPas de panique ! Si besoin, un carnet d'indices est à votre disposition.\n\nIci, pas de chrono ! Prenez le temps de savourer cette aventure...",
+  "location_text": "Nous habitons dans un hameau de Vertou, au calme, dans un environnement verdoyant entre vignes et forêt, à environ 20 minutes de Nantes. Pour les cylcos, les vélos peuvent être abrités dans un garage sécurisé.",
+  "departure_time": "Avant 10h30",
+  "game_text": "Dans la chambre, les objets qui vous entourent sont de véritables pièces vintage, chinées ou issues des souvenirs de Simone.\nElle a pris soin de vous laisser des consignes dans son carnet. Au fil de ces pages, vous avancerez dans l'enquête et découvrirez votre apéritif dînatoire. \nComptez 1h30 à 2h30 de jeu, selon votre rythme.\nDébutants ou habitués des escape games, chacun peut profiter de l’expérience à sa façon. \nPas de panique ! Si besoin, un carnet d'indices est à votre disposition.\n\nIci, pas de chrono, prenez le temps de savourer cette aventure...",
   "room_image_zoom": 1,
   "welcome_title": "Une parenthèse ludique et gourmande",
   "hero_image_zoom": 1,
