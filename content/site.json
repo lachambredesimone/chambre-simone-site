@@ -86,16 +86,7 @@
   "transparency_title": "Chez Simone, c'est aussi chez nous.",
   "room_image_y": 50,
   "price_weekend": "160€ pour 2 personnes",
-  "gallery": [
-    {
-      "image": "/images/whatsapp-image-2026-11-20-at-10.31.01-2-.jpeg",
-      "caption": "Les petits détails de la maison",
-      "zoom": 1,
-      "x": 50,
-      "y": 50,
-      "height": 280
-    }
-  ],
+  "gallery": [],
   "room_rules": "Chambre non-fumeur. Animaux non acceptés.\nHoraires d'arrivée et de départ à convenir ensemble.",
   "hero_title": "Chambre d'hôtes avec enquête immersive et apéro dînatoire",
   "arrival_time": "À convenir ensemble",
