@@ -42,6 +42,7 @@ collections:
           - {label: "ENQUÊTE — Titre", name: "game_title", widget: "string"}
           - {label: "ENQUÊTE — Présentation", name: "game_text", widget: "text"}
           - {label: "ENQUÊTE — Citation", name: "game_quote", widget: "text"}
+          - {label: "ENQUÊTE – Photo", name: "game_image", widget: "image", required: false}
           - {label: "CHAMBRE — Présentation", name: "room_intro", widget: "text"}
           - {label: "CHAMBRE — Photo", name: "room_image", widget: "image"}
           - {label: "CHAMBRE — Zoom photo (1 à 2)", name: "room_image_zoom", widget: "number", value_type: "float", min: 1, max: 2, step: 0.05}
