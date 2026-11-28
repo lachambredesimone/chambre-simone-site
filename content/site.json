@@ -76,7 +76,22 @@
   "welcome_text": "Ici, on ne vient pas seulement dormir. On vient fouiller dans les souvenirs, jouer les curieux, découvrir des secrets de famille, redonner vie à des objets oubliés. \nLaissez-vous porter et savourez ce moment hors du temps.",
   "game_title": "Une enquête qui se savoure",
   "phone": "06.67.62.51.05",
-  "sections": [],
+  "sections": [
+    {
+      "alignment": "center",
+      "height": 360,
+      "eyebrow": "Envie de faire plaisir",
+      "image_position": "right",
+      "background": "normal",
+      "visible": true,
+      "zoom": 1,
+      "x": 50,
+      "title": "Et si vous offriez la carte cadeau de Simone à vos proches ?",
+      "y": 50,
+      "type": "split",
+      "image": "/images/carte-cadeau.png"
+    }
+  ],
   "game_image": "/images/souvenirs-vintage-autour-d’un-apéritif.png",
   "room_image_height": 440,
   "hero_image_x": 45,
