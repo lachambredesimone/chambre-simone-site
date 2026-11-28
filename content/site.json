@@ -79,10 +79,11 @@
   "sections": [
     {
       "alignment": "center",
-      "height": 360,
+      "image_alt": "Contactez Aurélien au 06.67.62.51.05 pour toute demande de carte cadeau.",
+      "height": 150,
       "eyebrow": "Envie de faire plaisir",
-      "text": "Contactez Aurélien au 06.67.62.51.05 pour toute demande.",
-      "image_position": "right",
+      "text": "",
+      "image_position": "left",
       "background": "normal",
       "visible": true,
       "zoom": 1,
