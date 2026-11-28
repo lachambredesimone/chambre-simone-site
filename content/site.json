@@ -80,7 +80,7 @@
     {
       "alignment": "center",
       "image_alt": "Contactez Aurélien au 06.67.62.51.05 pour toute demande de carte cadeau.",
-      "height": 150,
+      "height": 360,
       "eyebrow": "Envie de faire plaisir",
       "text": "",
       "image_position": "left",
@@ -88,7 +88,7 @@
       "visible": true,
       "zoom": 1,
       "x": 50,
-      "title": "Offrez la carte cadeau de Simone à vos proches ?",
+      "title": "Offrez la carte cadeau de Simone à vos proches !",
       "y": 50,
       "type": "split",
       "image": "/images/carte-cadeau.png"
